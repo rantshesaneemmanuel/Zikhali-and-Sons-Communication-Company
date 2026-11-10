@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Internet Services | Zikhali and Sons</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        .service-page {
+            min-height: 100vh;
+            padding: 40px 7%;
+            box-sizing: border-box;
+
+            /* Background image for the whole page */
+            background:
+                linear-gradient(
+                    rgba(6, 39, 76, 0.35),
+                    rgba(6, 39, 76, 0.55)
+                ),
+                url("imgs/what_is_Internet 2.jpeg");
+
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+
+        /* Internet Services information box */
+        .service-info {
+            width: 100%;
+            max-width: 850px;
+            margin: 60px auto;
+            padding: 35px;
+            box-sizing: border-box;
+            border: 2px solid #c86b3b;
+            border-radius: 12px;
+
+            /* Background image inside the information box */
+            background:
+                linear-gradient(
+                    rgba(6, 39, 76, 0.75),
+                    rgba(6, 39, 76, 0.90)
+                ),
+                url("imgs/what_is_Internet 2.jpeg");
+
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+
+            color: white;
+            line-height: 1.8;
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.25);
+        }
+
+        .service-info h1,
+        .service-info h2 {
+            color: #c86b3b;
+        }
+
+        .service-info p,
+        .service-info li {
+            color: white;
+        }
+
+        .service-info a:not(.back-link) {
+            color: #56c6eb;
+        }
+
+        .back-link {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 12px 20px;
+            background: #c86b3b;
+            color: #06274c;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+            transition: 0.3s ease;
+        }
+
+        .back-link:hover {
+            background: white;
+        }
+
+        @media (max-width: 600px) {
+            .service-page {
+                padding: 20px 4%;
+                background-attachment: scroll;
+            }
+
+            .service-info {
+                padding: 22px;
+                margin: 35px auto;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <main class="service-page">
+
+        <header class="topbar">
+
+            <a class="brand" href="index.html">
+                <img class="brand-logo" src="imgs/logo.png" alt="Zikhali and Sons logo">
+            </a>
+
+            <nav class="navigation" aria-label="Main navigation">
+                <a href="index.html">HOME</a>
+                <a href="about%20us.html">ABOUT US</a>
+                <a href="services.html">SERVICES</a>
+                <a href="projects.html">PROJECTS</a>
+                <a href="contacts.html">CONTACTS</a>
+            </nav>
+
+        </header>
+
+        <section class="service-info">
+
+            <h1>Internet Services</h1>
+
+            <p>
+                Internet services connect people, businesses and
+                organisations to online information and communication
+                tools. They can include broadband connections, fibre
+                internet, wireless connections and mobile data.
+            </p>
+
+            <h2>Benefits of Internet Connectivity</h2>
+
+            <ul>
+                <li>Communicate through email, messaging and video calls.</li>
+                <li>Access educational and business information.</li>
+                <li>Share files and work with people remotely.</li>
+                <li>Use online platforms and digital services.</li>
+            </ul>
+
+            <h2>Learn More</h2>
+
+            <p>
+                Read
+                <a href="https://developer.mozilla.org/en-US/docs/Learn_web_development/Howto/Web_mechanics/How_does_the_Internet_work"
+                   target="_blank" rel="noopener noreferrer">
+                    MDN's guide to how the internet works
+                </a>
+                to understand how information travels online.
+            </p>
+
+            <a href="services.html" class="back-link">
+                Back to Services
+            </a>
+
+        </section>
+
+    </main>
+
+</body>
+</html>
