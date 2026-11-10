@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contact Us | Zikhali and Sons Communication</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="contact-body">
+
+    <!-- HEADER -->
+    <header class="topbar">
+
+        <a class="brand" href="index.html">
+            <img class="brand-logo"
+                 src="imgs/logo.png"
+                 alt="Zikhali and Sons logo">
+        </a>
+
+        <nav class="navigation" aria-label="Main navigation">
+            <a href="index.html">HOME</a>
+            <a href="about us.html">ABOUT US</a>
+            <a href="services.html">SERVICES</a>
+            <a href="projects.html">PROJECTS</a>
+            <a href="contacts.html">CONTACTS</a>
+        </nav>
+
+    </header>
+
+    <!-- MAIN CONTENT -->
+    <main class="contact-page">
+
+        <!-- PAGE INTRODUCTION -->
+        <section class="contact-heading">
+
+            <h1>Contact Us</h1>
+
+            <p>
+                We would love to hear from you! Get in touch with
+                Zikhali and Sons Communication Company for enquiries,
+                quotations, partnerships and information about our services.
+            </p>
+
+        </section>
+
+        <!-- CONTACT DETAILS AND FORM -->
+        <section class="contact-layout">
+
+            <!-- CONTACT INFORMATION -->
+            <div class="contact-information">
+
+                <h2>Get In Touch</h2>
+
+                <p class="contact-intro">
+                    Have a question or need our services?
+                    Contact us using the details below.
+                </p>
+
+                <div class="contact-card">
+
+                    <div class="contact-icon">📍</div>
+
+                    <div>
+                        <h3>Our Location</h3>
+                        <p>Mmopane Block 1, Plot 4455</p>
+                        <p class="small-text">Botswana</p>
+                    </div>
+
+                </div>
+
+                <div class="contact-card">
+
+                    <div class="contact-icon">📞</div>
+
+                    <div>
+                        <h3>Phone Number</h3>
+
+                        <p>
+                            <a href="tel:+26774308622">
+                                +267 74308622
+                            </a>
+                        </p>
+
+                        <p class="small-text">
+                            Call us for enquiries and quotations.
+                        </p>
+                    </div>
+
+                </div>
+
+                <div class="contact-card">
+
+                    <div class="contact-icon">✉️</div>
+
+                    <div>
+                        <h3>Email Address</h3>
+
+                        <p>
+                            <a href="mailto:rantshesaneemmanuel@gmail.com">
+                                rantshesaneemmanuel@gmail.com
+                            </a>
+                        </p>
+
+                        <p class="small-text">
+                            Send us your questions and project requests.
+                        </p>
+                    </div>
+
+                </div>
+
+                <div class="contact-card">
+
+                    <div class="contact-icon">🕒</div>
+
+                    <div>
+                        <h3>Business Hours</h3>
+                        <p>Monday – Friday: 8:00 AM – 5:00 PM</p>
+                        <p>Saturday – Sunday: Closed</p>
+                    </div>
+
+                </div>
+
+                <!-- SOCIAL MEDIA -->
+                <div class="contact-social">
+
+                    <h3>Connect With Us</h3>
+
+                    <div class="contact-social-links">
+
+                        <a href="https://www.facebook.com/"
+                           target="_blank"
+                           rel="noopener noreferrer">Facebook</a>
+
+                        <a href="https://www.instagram.com/"
+                           target="_blank"
+                           rel="noopener noreferrer">Instagram</a>
+
+                        <a href="https://www.linkedin.com/"
+                           target="_blank"
+                           rel="noopener noreferrer">LinkedIn</a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- CONTACT FORM -->
+            <div class="contact-form-container">
+
+                <h2>Send Us A Message</h2>
+
+                <p>
+                    Complete the form below and tell us how we can help you.
+                </p>
+
+               <form class="contact-form" action="send-message.php" method="POST">
+
+                    <!-- FORM SETTINGS -->
+                    <input type="hidden" name="_subject"
+                           value="New Enquiry - Zikhali and Sons Communication">
+
+                    <input type="hidden" name="_template"
+                           value="table">
+
+                    <input type="text" name="_honey"
+                           style="display:none">
+
+                    <div class="form-group">
+
+                        <label for="fullname">Full Name</label>
+
+                        <input
+                            type="text"
+                            id="fullname"
+                            name="Full Name"
+                            placeholder="Enter your full name"
+                            autocomplete="name"
+                            required>
+
+                    </div>
+
+                    <div class="form-group">
+
+                        <label for="email">Email Address</label>
+
+                        <input
+                            type="email"
+                            id="email"
+                            name="Email"
+                            placeholder="Enter your email address"
+                            autocomplete="email"
+                            required>
+
+                    </div>
+
+                    <div class="form-group">
+
+                        <label for="phone">Phone Number</label>
+
+                        <input
+                            type="tel"
+                            id="phone"
+                            name="Phone Number"
+                            placeholder="Enter your phone number"
+                            autocomplete="tel">
+
+                    </div>
+
+                    <div class="form-group">
+                        
+
+                        <label for="service">Service Required</label>
+
+                        <select id="service" name="Service Required" required>
+
+                            <option value="">Select a service</option>
+
+                            <option value="Cloud Services">
+                                Cloud Services
+                            </option>
+
+                            <option value="Internet Services">
+                                Internet Services
+                            </option>
+
+                            <option value="Digital Marketing">
+                                Digital Marketing Services
+                            </option>
+
+                            <option value="Video and Audio Production">
+                                Video and Audio Production
+                            </option>
+
+                            <option value="Other Enquiry">
+                                Other Enquiry
+                            </option>
+
+                        </select>
+
+                    </div>
+
+                    <div class="form-group">
+
+                        <label for="subject">Subject</label>
+
+                        <input
+                            type="text"
+                            id="subject"
+                            name="Subject"
+                            placeholder="What is your enquiry about?"
+                            required>
+
+                    </div>
+
+                    <div class="form-group">
+
+                        <label for="message">Your Message</label>
+
+                        <textarea
+                            id="message"
+                            name="Message"
+                            rows="5"
+                            placeholder="Write your message here..."
+                            required></textarea>
+
+                    </div>
+
+                    <button type="submit" class="send-button">
+                        Send Message
+                    </button>
+
+                </form>
+
+            </div>
+
+        </section>
+
+        <!-- LOCATION -->
+        <section class="location-section">
+
+            <h2>Find Us In Botswana</h2>
+
+            <p>
+                Our office is located in Mmopane Block 1, Botswana.
+                Contact us before visiting.
+            </p>
+
+            <a href="https://www.google.com/maps/search/?api=1&query=Mmopane+Block+1+Botswana"
+               target="_blank"
+               rel="noopener noreferrer"
+               class="location-button">
+
+                View Our Location
+
+            </a>
+
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="contact-footer">
+
+        <p>
+            &copy; 2026 Zikhali and Sons Communication Company.
+            All rights reserved.
+        </p>
+
+        <p>
+            Connecting People. Communicating Ideas.
+        </p>
+
+    </footer>
+
+</body>
+</html>
